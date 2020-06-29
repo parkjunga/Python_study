@@ -7,8 +7,9 @@ from rest_framework import mixins
 from fcuser.decorators import admin_required
 from .models import Product
 from .forms import RegisterForm
-from order.forms import RegisterForm as OrderForm
 from .seriallizers import ProductSerializer
+from order.forms import RegisterForm as OrderForm
+
 # Create your views here.
 
 class ProdcutListAPI(generics.GenericAPIView,mixins.ListModelMixin):
