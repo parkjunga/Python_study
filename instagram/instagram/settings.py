@@ -25,6 +25,7 @@ SECRET_KEY = 'mzr5j0tsi&5m5z(5-w^+^uqs-!gm%pw-@j&j-y29(-5a0f$9-j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# 현재서비스의 호스트를 셋팅
 ALLOWED_HOSTS = []
 
 
@@ -103,9 +104,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ko-kr'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
 
